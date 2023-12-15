@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube.com - Clone</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="category.css">
+</head>
+<body>
+    <div class="header">
+        <div class="left-div">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="icons/YouTube-Logo.wine.svg">
+        </div>
+        <div class="middle-div">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+            <img class="search-icon" src="icons/icons8-search-50.png"> 
+            <div class="tooltip">Search</div>   
+            </button>
+            <button class="voice-search-button">
+            <img class="voice-search-icon" src="icons/mic.png">
+            <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-div">
+            <div class="upload-icon-div">
+                <img class="upload-icon" src="icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="notifications-icon-div">
+                <img class="notifications-icon" src="icons/notifications.svg">
+                <div class="tooltip">Notifications</div>
+            </div>
+            <div class="current-user-picture-div">
+                <img class="current-user-picture" src="icons/profile.jpg">
+                <div class="tooltip">Profile</div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar-link1">
+            <div class="link-content home">
+                <img src="icons/home.svg">
+                <p>Home</p>
+            </div>
+            <div class="link-content">
+                <img src="icons/explore.svg">
+                <p>Shorts</p>
+            </div>
+            <div class="link-content">
+                <img src="icons/subscriptions.svg">
+                <p>Subscriptions</p>
+            </div>
+        </div>
+        <div class="sidebar-link2">
+            <p>You ></p>
+            <div class="link-content2">
+                <img src="icons/channel.webp">
+                Your channel
+            </div>
+            <div class="link-content2">
+                <img src="icons/history.webp">
+                History
+            </div>
+            <div class="link-content2">
+                <img src="icons/video.png">
+                Your videos
+            </div>
+            <div class="link-content2">
+                <img src="icons/watchlater.webp">
+                Watch later
+            </div>
+            <div class="link-content2">
+                <img src="icons/showmore.png">
+                show more
+            </div>
+        </div>
+        <div class="sidebar-link3">
+            <p>Subscriptions</p>
+            <div class="link-content2">
+                <img src="icons/james.jpg">
+                James Cross
+            </div>
+            <div class="link-content2">
+                <img src="icons/mrbeast.jpg">
+                MrBeast
+            </div>
+            <div class="link-content2">
+                <img src="icons/tuf.jpg">
+                take U forward
+            </div>
+            <div class="link-content2">
+                <img src="icons/canadia.jpg">
+                The Canadian Lad
+            </div>
+            <div class="link-content2">
+                <img src="icons/super.jpg">
+                SuperSimpleDev
+            </div>
+            <div class="link-content2">
+                <img src="icons/harsh.jpg">
+                Harsh Beniwal
+            </div>
+            <div class="link-content2">
+                <img src="icons/showmore.png">
+                show 71 more
+            </div>
+        </div>
+        <div class="sidebar-link4">
+            <p>Explore</p>
+            <div class="link-content2">
+                <img src="icons/trending.webp">
+                Trending
+            </div>
+            <div class="link-content2">
+                <img src="icons/shopping.svg">
+                Shopping
+            </div>
+            <div class="link-content2">
+                <img src="icons/music.png">
+                Music
+            </div>
+            <div class="link-content2">
+                <img src="icons/movie.png">
+                Movies
+            </div>
+            <div class="link-content2">
+                <img src="icons/live.png">
+                Live
+            </div>
+            <div class="link-content2">
+                <img src="icons/gaming.svg">
+                Gaming
+            </div>
+            <div class="link-content2">
+                <img src="icons/news.png">
+                News
+            </div>
+        </div>
+        <div class="sidebar-link5">
+            <p>More from YouTube</p>
+            <div class="link-content2">
+                <img src="icons/yout.png">
+                YouTube Premium
+            </div>
+            <div class="link-content2">
+                <img src="icons/studio.webp">
+                YouTube Studio
+            </div>
+            <div class="link-content2">
+                <img src="icons/yomusic.webp">
+                YouTube Music
+            </div>
+            <div class="link-content2">
+                <img src="icons/kids.png">
+                YouTube Kids
+            </div>
+        </div>
+    </div>
+    <div class="category">
+        <div class="cat " id="all">All</div>
+        <div class="cat">CSS</div>
+        <div class="cat">Mixes</div>
+        <div class="cat">Python</div>
+        <div class="cat">Live</div>
+        <div class="cat">Gaming</div>
+        <div class="cat">Music</div>
+        <div class="cat">Cricket</div>
+        <div class="cat">Tollywood</div>
+        <div class="cat">Trailers</div>
+        <div class="cat">Sales</div>
+        <div class="cat">GameShows</div>
+        <div class="cat">News</div>
+        <div class="cat">Valorant</div>
+        <div class="cat">Pins</div>
+
+    </div>
+    <div class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="images/first.webp">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-div">
+                    <img class="profile" src="profile-pics/first.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        JavaScript Full Course (2023) - Beginner to Pro - Part 1
+                    </p>
+                    <p class="video-author">
+                        SuperSimpleDev
+                    </p>
+                    <p class="video-stats">
+                    2.9M views &#183; 4 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="icons/dolby walya.webp">
+                <div class="video-time">5:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-div">
+                    <img class="profile" src="icons/zee.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Dolby Walya - Full Video | Jaundya Na Balasaheb | Ajay-Atul
+                    </p>
+                    <p class="video-author">
+                        Zee Music Marathi
+                    </p>
+                    <p class="video-stats">
+                    6.79M views &#183; 4 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="images/mrbeast.webp">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-div">
+                    <img class="profile" src="icons/mrbeast.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        If You Can Carry $1,000,000 You Keep It!
+                    </p>
+                    <p class="video-author">
+                        MrBeast
+                    </p>
+                    <p class="video-stats">
+                    177M views &#183; 2 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="images/leo.webp">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-div">
+                    <img class="profile" src="images/sony.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Leo - Badass Video | Thalapathy Vijay | Anirudh Ravichander
+                    </p>
+                    <p class="video-author">
+                        SonyMusicSouthVEVO
+                    </p>
+                    <p class="video-stats">
+                    1.9M views &#183; 4 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="images/night.jpg">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-div">
+                    <img class="profile" src="images/lord.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Lord Huron - The Night We Met (Official Audio)
+                    </p>
+                    <p class="video-author">                        
+                        Lord Huron
+                    </p>
+                    <p class="video-stats">
+                    294M views &#183; 8 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="images/meta.webp">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-div">
+                    <img class="profile" src="images/me.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        SOLDIER BOY | Interworld - Metamorphosis [Slowed] (edit)
+                    </p>
+                    <p class="video-author">                        
+TRAZ
+                    </p>
+                    <p class="video-stats">
+                    449k views &#183; 4 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="images/fight.webp">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-div">
+                    <img class="profile" src="images/fightlogo.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Fight Club • Where Is My Mind • Pixies
+                    </p>
+                    <p class="video-author">                        
+HD Film Tributes
+                    </p>
+                    <p class="video-stats">
+                    7.7M views &#183; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="images/rajini.webp">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-div">
+                    <img class="profile" src="images/prime.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Rajinikanth's Most Badass Entry Scenes | Annamalai, Sivaji, 2.0, Kaala | Amazon Prime Video
+                    </p>
+                    <p class="video-author">                        
+Prime Video India
+                    </p>
+                    <p class="video-stats">
+                    527k views &#183; 4 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="images/pk.webp">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-div">
+                    <img class="profile" src="images/dvv.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Hungry Cheetah - OG Glimpse | Pawan Kalyan | Sujeeth | Thaman S | DVV Danayya
+                    </p>
+                    <p class="video-author">                        
+DVV Entertainment
+
+                    </p>
+                    <p class="video-stats">
+                    29M views &#183; 3 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

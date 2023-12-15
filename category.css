@@ -1,0 +1,19 @@
+.category{
+    display: flex;
+    column-gap: 10px;
+    font-family: Roborto,ArIal;
+}
+#all{
+    background-color: #d4d4d4;
+}
+.cat{
+    background-color: rgb(241, 241, 241);
+    margin-left: 5px;
+    margin-bottom: 15px;
+    padding: 7px 10px;
+    border-radius: 8px;
+    transition: background-color,0.25s;
+}
+.cat:hover{
+    background-color: #d4d4d4;
+}
